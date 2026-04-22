@@ -1128,6 +1128,11 @@ body.dark a:hover {
 body.dark a:active {
   color: #00ff99;
 }
+body:not(.dark) .sound-btn-game {
+  color: #006064 !important;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.9);
+}
 @media (max-width: 768px) {
   body {
     font-size: 14px;
