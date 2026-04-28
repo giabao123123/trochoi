@@ -13,7 +13,6 @@ body {
   }
 }
 @keyframes fadeIn {
-  from {
     opacity: 0;
     transform: translateY(6px);
   }
@@ -1308,4 +1307,7 @@ body:not(.dark) .sound-btn-game {
   #rules-screen li {
     font-size: 14px;
   }
+}
+.sound-btn-hidden {
+  display: none !important;
 }
